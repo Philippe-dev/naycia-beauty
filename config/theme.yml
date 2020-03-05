@@ -1,0 +1,121 @@
+parent: cosmetics_th
+name: naycia-beauty
+display_name: Naycia Beauty
+version: 1.0.0
+author:
+  name: "Philippe Hénaff"
+  email: "philippe@henaff.me"
+  url: "https://www.henaff.me"
+assets:
+  use_parent_assets: true
+  js:
+    index:
+      - id: owl-carousel
+        path: assets/js/owl.carousel.min.js
+        priority: 55
+      - id: wow-library
+        path: assets/js/wow.js
+        priority: 60
+      - id: carousels
+        path: assets/js/carousels.js
+        priority: 65
+      - id: index-extra-scripts
+        path: assets/js/index.js
+        priority: 70
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 80
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
+    category:
+      - id: owl-carousel
+        path: assets/js/owl.carousel.min.js
+        priority: 55
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 65
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
+    best-sales:
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 65
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
+    manufacturer:
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 65
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
+    new-products:
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 65
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
+    prices-drop:
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 65
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
+    search:
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 65
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
+    supplier:
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 65
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
+    product:
+      - id: owl-carousel
+        path: assets/js/owl.carousel.min.js
+        priority: 55
+      - id: carousels
+        path: assets/js/carousels.js
+        priority: 60
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 65
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
+    order-confirmation:
+      - id: owl-carousel
+        path: assets/js/owl.carousel.min.js
+        priority: 55
+      - id: carousels
+        path: assets/js/carousels.js
+        priority: 60
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 65
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
+    cart:
+      - id: owl-carousel
+        path: assets/js/owl.carousel.min.js
+        priority: 55
+      - id: carousels
+        path: assets/js/carousels.js
+        priority: 60
+      - id: add-to-cart
+        path: assets/js/add-to-cart.js
+        priority: 65
+      - id: generating-rating
+        path: assets/js/rating.js
+        priority: 100
