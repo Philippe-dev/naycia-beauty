@@ -562,7 +562,7 @@ body .block_newsletter .form-control {
   margin-bottom: 5em
 }
 
-/*Home slider*/
+/*Home slider (replaced by Creative slider)
 .header-slide.skin-one .slide-link:before {
   background: transparent;
 }
@@ -586,7 +586,7 @@ body .block_newsletter .form-control {
   font-weight: bold;
   font-size: 0.9em
 }
-
+*/
 
 /*PACKS on product page*/
 .ap5-pack-product-content h2 {
@@ -617,8 +617,18 @@ body .block_newsletter .form-control {
   font-size: 1em;
   font-weight: bold;
 }
+
 h1.h1 {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 1.8em;
   font-weight: bold;
+}
+
+/* Creative slider hack */
+#category #wrapper {
+  padding-top: 0
+}
+
+#category nav.breadcrumb {
+  padding-top: 25px
 }
