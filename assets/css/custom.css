@@ -632,3 +632,8 @@ h1.h1 {
 #category nav.breadcrumb {
   padding-top: 25px
 }
+
+/* Do not display individual prices in packs */
+.ap5-pack-product-content span {
+  display: none
+}
