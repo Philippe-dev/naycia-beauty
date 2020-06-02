@@ -637,3 +637,6 @@ h1.h1 {
 .ap5-pack-product-content span {
   display: none
 }
+
+/* Hide comment author display */
+.comment-author, .comment-date {display:none}
