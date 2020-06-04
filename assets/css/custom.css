@@ -597,6 +597,14 @@ body .block_newsletter .form-control {
   font-size: .8em
 }
 
+.ap5-pack-product-content a {
+  color: #6B1480 !important;
+  text-decoration: underline dotted
+}
+.ap5-pack-product-content a:hover {
+  color: #e64288 !important
+}
+
 .l-column .product-flags .new,
 .l-column .product-flags .pack {
   left: auto;
