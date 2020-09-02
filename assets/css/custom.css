@@ -601,6 +601,7 @@ body .block_newsletter .form-control {
   color: #6B1480 !important;
   text-decoration: underline dotted
 }
+
 .ap5-pack-product-content a:hover {
   color: #e64288 !important
 }
@@ -647,4 +648,28 @@ h1.h1 {
 }
 
 /* Hide comment author display */
-.comment-author, .comment-date {display:none}
+.comment-author,
+.comment-date {
+  display: none
+}
+
+/* Mega Menu module
+.mm_menus_ul {
+  display: flex;
+  justify-content: center
+}
+
+.mm_menus_li>a:hover,
+.mm_menus_li>a:active,
+.mm_menus_li>a:focus {
+  color: #e64288;
+}
+
+.mm-product-description span.product_combination {
+  display: none;
+}
+
+.header-top .inner-wrapper #_desktop_search_bar {
+  display: none
+}
+ */
